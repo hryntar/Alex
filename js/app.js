@@ -41,6 +41,17 @@
         hash = hash ? `#${hash}` : window.location.href.split("#")[0];
         history.pushState("", "", hash);
     }
+    function fullVHfix() {
+        const fullScreens = document.querySelectorAll("[data-fullscreen]");
+        if (fullScreens.length && isMobile.any()) {
+            window.addEventListener("resize", fixHeight);
+            function fixHeight() {
+                let vh = .01 * window.innerHeight;
+                document.documentElement.style.setProperty("--vh", `${vh}px`);
+            }
+            fixHeight();
+        }
+    }
     let _slideUp = (target, duration = 500, showmore = 0) => {
         if (!target.classList.contains("_slide")) {
             target.classList.add("_slide");
@@ -4161,6 +4172,7 @@
     window["FLS"] = true;
     isWebp();
     menuInit();
+    fullVHfix();
     tabs();
     formFieldsInit({
         viewPass: false,

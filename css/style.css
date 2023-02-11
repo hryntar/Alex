@@ -536,7 +536,7 @@ h6 {
 .main-section__container {
   display: -ms-grid;
   display: grid;
-  min-height: 100%;
+  min-height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -554,7 +554,7 @@ h6 {
 }
 
 .services__container {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -623,7 +623,7 @@ h6 {
 }
 
 .portfolio__container {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -766,7 +766,7 @@ h6 {
 }
 
 .career__container {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -921,7 +921,7 @@ h6 {
 }
 
 .blog__container {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -948,7 +948,7 @@ h6 {
 }
 
 .item-blog {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1013,7 +1013,7 @@ h6 {
 }
 
 .clients__container {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1081,7 +1081,7 @@ h6 {
 }
 
 .skills__container {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1201,7 +1201,7 @@ h6 {
 }
 
 .contacts__container {
-  min-height: 100%;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
